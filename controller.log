@@ -1,0 +1,42 @@
+2023-06-27 03:15:00 | INFO | controller | args: Namespace(host='localhost', port=21001, dispatch_method='shortest_queue')
+2023-06-27 03:15:01 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m67724[0m]
+2023-06-27 03:15:01 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-06-27 03:15:01 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-06-27 03:15:01 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21001[0m (Press CTRL+C to quit)
+2023-06-27 03:15:11 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-06-27 03:15:11 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-06-27 03:15:11 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-06-27 03:15:11 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m67724[0m]
+2023-06-27 03:15:12 | ERROR | stderr | Exception ignored in: <module 'threading' from '/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+2023-06-27 03:15:12 | ERROR | stderr | Traceback (most recent call last):
+2023-06-27 03:15:12 | ERROR | stderr |   File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1583, in _shutdown
+2023-06-27 03:15:12 | ERROR | stderr |     lock.acquire()
+2023-06-27 03:15:12 | ERROR | stderr | KeyboardInterrupt:
+2023-06-27 03:15:24 | INFO | controller | args: Namespace(host='localhost', port=21001, dispatch_method='shortest_queue')
+2023-06-27 03:15:24 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m67750[0m]
+2023-06-27 03:15:24 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-06-27 03:15:24 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-06-27 03:15:24 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21001[0m (Press CTRL+C to quit)
+2023-06-27 03:16:51 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-06-27 03:16:51 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-06-27 03:16:51 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-06-27 03:16:51 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m67750[0m]
+2023-06-27 03:16:52 | ERROR | stderr | Exception ignored in: <module 'threading' from '/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+2023-06-27 03:16:52 | ERROR | stderr | Traceback (most recent call last):
+2023-06-27 03:16:52 | ERROR | stderr |   File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1583, in _shutdown
+2023-06-27 03:16:52 | ERROR | stderr |     lock.acquire()
+2023-06-27 03:16:52 | ERROR | stderr | KeyboardInterrupt:
+2023-06-27 03:18:54 | INFO | controller | args: Namespace(host='localhost', port=21001, dispatch_method='shortest_queue')
+2023-06-27 03:18:54 | ERROR | stderr | [32mINFO[0m:     Started server process [[36m67890[0m]
+2023-06-27 03:18:54 | ERROR | stderr | [32mINFO[0m:     Waiting for application startup.
+2023-06-27 03:18:54 | ERROR | stderr | [32mINFO[0m:     Application startup complete.
+2023-06-27 03:18:54 | ERROR | stderr | [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:21001[0m (Press CTRL+C to quit)
+2023-06-27 03:19:31 | ERROR | stderr | [32mINFO[0m:     Shutting down
+2023-06-27 03:19:31 | ERROR | stderr | [32mINFO[0m:     Waiting for application shutdown.
+2023-06-27 03:19:31 | ERROR | stderr | [32mINFO[0m:     Application shutdown complete.
+2023-06-27 03:19:31 | ERROR | stderr | [32mINFO[0m:     Finished server process [[36m67890[0m]
+2023-06-27 03:19:35 | ERROR | stderr | Exception ignored in: <module 'threading' from '/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py'>
+2023-06-27 03:19:35 | ERROR | stderr | Traceback (most recent call last):
+2023-06-27 03:19:35 | ERROR | stderr |   File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/threading.py", line 1583, in _shutdown
+2023-06-27 03:19:35 | ERROR | stderr |     lock.acquire()
+2023-06-27 03:19:35 | ERROR | stderr | KeyboardInterrupt:
