@@ -34,17 +34,25 @@ similar_docs = db.similarity_search(query)
 # Create prompt
 prompt = f"已知信息：\n{similar_docs[0].page_content}\n{similar_docs[1].page_content}请根据这些信息回答问题：\n{query}"
  
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = os.environ["OPENAI_API_KEY"]
+openai.api_base = os.environ["AZURE_OPENAI_ENDPOINT"]
+print(openai.api_base)
+deployment_name = 'Breadcrumbsautomatic-assessment-generation'
+response = openai.Completion.create(engine=deployment_name, prompt=prompt, max_tokens=200)
+
+'''
 response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
+  temperature =  0.7,
   messages=[
         {"role": "user", "content": prompt},
     ]
 )
+'''
 
 if __name__ == "__main__":
   print(split_docs[0])
   print(split_docs[1])
   print(similar_docs[0])
   print(prompt)
-  print(response.choices.messages.content)
+  print(text = response['choices'][0]['text'].replace('\n', '').replace(' .', '.').strip())
