@@ -17,8 +17,13 @@ Embedding选择HuggingFaceEmbeddings
 
 ### 样例
 样例路径: ./data
+
 样例场景为一个淘宝商家的问答bot
+
 用户输入: 这款衣服的袖型是什么
+
 system prompt: 你是一个根据提供的材料作出回答的助手
+
 user prompt: ./data/test-prompt.txt
+
 Output: 这款衣服的袖型是收口袖。
