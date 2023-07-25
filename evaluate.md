@@ -64,7 +64,7 @@ from collections import Counter
 import os
 ```
 
-Here we load the data set and then load the embeddings through **FAISS**
+Here we load the data set and then load the embeddings through **FAISS**, you can also utilize other vector databases such as **Awadb**. 
 
 
 ```python
