@@ -3,7 +3,9 @@ from langchain.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.embeddings import OpenAIEmbeddings
+from langchain.vectorstores import AwaDB
 import openai
+import awadb
 from langchain.vectorstores import FAISS
 import pandas as pd
 import os
@@ -28,9 +30,9 @@ db.save_local("faiss_index_2")
 openai.api_key = os.environ["OPENAI_API_KEY"]
 embeddings = OpenAIEmbeddings()
 #doc_result = embeddings.embed_documents(docs)
+db = AwaDB.from_documents(docs)
 
-db = FAISS.from_documents(split_docs, embeddings)
-db.save_local("openai_index_2")
+db.similarity_search()
 
 
 

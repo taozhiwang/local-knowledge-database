@@ -18,9 +18,13 @@ split_docs = text_splitter.split_documents(data)
 
 embeddings = HuggingFaceEmbeddings()
 
-#db = AwaDB.from_documents(split_docs)
+db = AwaDB.from_documents(,)
 #db.save_local("awadb_index")
 
 awadb_client = awadb.Client()
 awadb_client.Create("test_llm1") 
-awadb_client.from_documents(split_docs)
+
+print(split_docs)
+
+for text in split_docs:
+    awadb_client.Add([split_docs[0].page_content])

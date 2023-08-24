@@ -28,6 +28,8 @@ def evaluation(embedding_type, need_embedding):
     db = FAISS.from_documents(split_docs, embeddings)
 
     query = dataset[0]["question"]
+    print(query)
+    return
     similar_docs = db.similarity_search(query)
 
     # Create prompt
